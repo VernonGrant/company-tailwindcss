@@ -9,7 +9,6 @@ Provides basic completions for Tailwindcss
 Add the following to your init file. It will basically download and install the package automatically.
 
 ```lisp
-;;
 (unless (require 'company-tailwindcss nil 'noerror)
   (package-vc-install
    '(company-tailwindcss :url "https://github.com/VernonGrant/company-tailwindcss"
